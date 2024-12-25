@@ -3,7 +3,7 @@ document.write('<div style="text-align:center;display:block;max-width:729px;heig
 
 // ads-here
 
-document.write('<script type="text/javascript" src="https://boogiebump.github.io/ads/banner-loading.js"><\/script>');
+document.write('<script type="text/javascript" src="https://coyagami.github.io/x/loading.js"><\/script>');
 
 // --
 
