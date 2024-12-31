@@ -1,5 +1,5 @@
 // stats
-document.write('<img alt="stats" src="//sstatic1.histats.com/0.gif?4606448&101"/>');
+document.write('<img alt="stats" src="//sstatic1.histats.com/0.gif?4919244&101"/>');
 
 // stcounter
 var sc_project=13049188; 
